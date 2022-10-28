@@ -67,5 +67,13 @@ module.exports = {
       template: 'src/cms.html',
       inject: true,
     })
-  ]
+  ],
+
+  resolve: {
+    fallback: {
+      path: require.resolve('path-browserify'),
+      stream: require.resolve('stream-browserify'),
+      buffer: require.resolve('buffer/'),
+    },
+  },
 };
