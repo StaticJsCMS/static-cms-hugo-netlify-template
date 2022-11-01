@@ -1701,10 +1701,10 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-2.1.1.tgz#ceff6a28a5b4867c2dd4a1ba513de278ccbe8bb1"
   integrity sha512-/aPsuoj/1Dw/kzhkgz+ES6TxG0zfTMGLwuK2ZG00k/iJzYHTLCE8mVU8EPqEOp/lmxPoq1C1C9RYToRKb2KEfg==
 
-"@staticcms/core@next":
-  version "1.0.0-alpha27"
-  resolved "https://registry.yarnpkg.com/@staticcms/core/-/core-1.0.0-alpha27.tgz#3c984a3d7f116d5acdad78cd0cd35fc81ee4dda6"
-  integrity sha512-gS0C+OsHGsnqeL+NbDVYw5cRqTow0Vuo+xgfYmavzan5StKOouNkbAT1/E7qFs4NsYFLkdNg2hoF/H3oCw4YMg==
+"@staticcms/core@1.0.0-alpha28":
+  version "1.0.0-alpha28"
+  resolved "https://registry.yarnpkg.com/@staticcms/core/-/core-1.0.0-alpha28.tgz#597d835c5ed77b73437f3857f968acb7d8f40743"
+  integrity sha512-LJecAm2W4GFTC5/kBhHTG1Hk1wCrsw+qic0+4TiHzgpEE8dZnneE9iBTAt51s8/lUrZL0ti3ua8clcrjDs6twA==
   dependencies:
     "@emotion/babel-preset-css-prop" "11.10.0"
     "@emotion/css" "11.10.0"
