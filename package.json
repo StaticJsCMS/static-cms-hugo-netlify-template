@@ -8,7 +8,7 @@
     "lint": "eslint src",
     "start": "run-p start:**",
     "start:hugo": "hugo -d ../dist -s site -vw",
-    "start:webpack": "webpack-dev-server --config webpack.dev.js --hot",
+    "start:webpack": "webpack-dev-server --config webpack.dev.js --hot --stats-error-details",
     "preview": "run-p preview:**",
     "preview:hugo": "npm run start:hugo -- -D -F",
     "preview:webpack": "npm run start:webpack",
@@ -22,12 +22,10 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "cypress": "10.5.0",
     "date-fns": "2.29.3",
-    "@staticcms/core": "1.0.0-alpha28",
-    "netlify-plugin-cypress": "2.2.0",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
+    "@staticcms/core": "1.0.0-beta.6",
+    "react": "^18",
+    "react-dom": "^18",
     "to-string-loader": "1.2.0"
   },
   "devDependencies": {
