@@ -12,9 +12,3 @@
 [dev]
   framework = "hugo"
   targetPort = 3000
-
-[[plugins]]
-  package = "netlify-plugin-cypress"
-
-  [plugins.inputs]
-    record = true

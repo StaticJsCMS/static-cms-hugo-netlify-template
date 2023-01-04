@@ -1,3 +1,4 @@
+import { useMediaAsset } from "@staticcms/core";
 import React from "react";
 
 const ContactEntry = ({ heading, text }) => (
@@ -18,19 +19,20 @@ const ContactEntries = ({ data }) =>
     ""
   );
 
-export default class ContactPreview extends React.Component {
-  render() {
-    const { entry, getAsset, widgetFor } = this.props;
-    const entryContactEntries = entry.data.contact_entries;
-    const contactEntries = entryContactEntries ?? [];
-    return (
-      <div className="ph3 bg-off-white">
-        <img src={getAsset(entry.data.logo)} alt="" className="db w4 center pv4" />
-        <div className="center mw6 pv3">
-          {widgetFor("body")}
-          <ContactEntries data={contactEntries} />
-        </div>
+const ContactPreview = ({ entry, widgetFor, collection, field }) => {
+  const entryContactEntries = entry.data.contact_entries;
+  const contactEntries = entryContactEntries ?? [];
+  const logo = useMediaAsset(entry.data.logo, collection, field, entry);
+
+  return (
+    <div className="ph3 bg-off-white">
+      <img src={logo} alt="" className="db w4 center pv4" />
+      <div className="center mw6 pv3">
+        {widgetFor("body")}
+        <ContactEntries data={contactEntries} />
       </div>
-    );
-  }
-}
+    </div>
+  );
+};
+
+export default ContactPreview;
