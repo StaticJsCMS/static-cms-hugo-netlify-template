@@ -1,6 +1,6 @@
 {
   "name": "static-cms-hugo-netlify-template",
-  "version": "1.0.0",
+  "version": "1.0.0-beta.0",
   "license": "MIT",
   "description": "static-cms-hugo-netlify-template is a Hugo boilerplate website for Static CMS",
   "repository": "https://github.com/StaticJsCMS/static-cms-hugo-netlify-template",
