@@ -22,7 +22,7 @@ module.exports = {
         test: /\.((png)|(eot)|(woff)|(woff2)|(ttf)|(svg)|(gif))(\?v=\d+\.\d+\.\d+)?$/,
         loader: "file-loader",
         options: {
-          name: "name=/[hash].[ext]"
+          name: "name=/[fullhash].[ext]"
         }
       },
       {
