@@ -1,12 +1,12 @@
 # Hugo template for Static CMS with Netlify Identity
 
-This is a small business template built with [Hugo](https://gohugo.io) and [Static CMS](https://github.com/StaticJsCMS/static-cms), designed and developed by [Darin Dimitroff](https://twitter.com/deezel), [spacefarm.digital](https://www.spacefarm.digital).
+This is a small business template built with [Hugo](https://gohugo.io) and [Static CMS](https://github.com/StaticJsCMS/static-cms).
 
 ## Getting started
 
 Use our deploy button to get your own copy of the repository. 
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/one-click-hugo-cms&stack=cms)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/StaticJsCMS/static-cms-hugo-netlify-template&amp;stack=cms)
 
 This will setup everything needed for running the CMS:
 
@@ -15,7 +15,7 @@ This will setup everything needed for running the CMS:
 * Control users and access with Netlify Identity
 * Manage content with Static CMS
 
-Once the initial build finishes, you can invite yourself as a user. Go to the Identity tab in your new site, click "Invite" and send yourself an invite.
+Once the initial build finishes, you will receive an "Invite" email to login to Static CMS.
 
 Now you're all set, and you can start editing content!
 

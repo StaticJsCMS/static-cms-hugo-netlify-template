@@ -1,9 +1,17 @@
 {
   "name": "static-cms-hugo-netlify-template",
   "version": "1.0.0",
+  "license": "MIT",
   "description": "static-cms-hugo-netlify-template is a Hugo boilerplate website for Static CMS",
-  "repository": "StaticJsCMS/static-cms-hugo-netlify-template",
-  "main": "index.js",
+  "repository": "https://github.com/StaticJsCMS/static-cms-hugo-netlify-template",
+  "bugs": "https://github.com/StaticJsCMS/static-cms-hugo-netlify-template/issues",
+  "keywords": [
+    "hugo",
+    "static",
+    "cms",
+    "core",
+    "netlify"
+  ],
   "scripts": {
     "lint": "eslint src",
     "start": "run-p start:**",
@@ -19,13 +27,12 @@
     "build:hugo:preview": "npm run build:hugo -- -D -F",
     "build:webpack": "cross-env NODE_ENV=production webpack --config webpack.prod.js"
   },
-  "author": "",
-  "license": "MIT",
+  "main": "index.js",
   "dependencies": {
     "date-fns": "2.29.3",
     "@staticcms/core": "1.0.0-beta.8",
-    "react": "^18.2",
-    "react-dom": "^18.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
     "to-string-loader": "1.2.0"
   },
   "devDependencies": {
