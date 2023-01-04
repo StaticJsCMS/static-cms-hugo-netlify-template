@@ -1,5 +1,3 @@
-console.log(window.location)
-
 import CMS from "@staticcms/core";
 
 // Import main site styles as a string to inject into the CMS preview pane
