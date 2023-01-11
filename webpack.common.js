@@ -65,7 +65,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       filename: "admin/index.html",
       template: 'src/cms.html',
-      inject: true,
+      inject: false,
     })
   ],
 
