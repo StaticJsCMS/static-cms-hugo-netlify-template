@@ -29,7 +29,10 @@ module.exports = {
         loader: "babel-loader",
         test: /\.js?$/,
         exclude: /node_modules/,
-        options: {cacheDirectory: true}
+        options: {
+          cacheDirectory: true,
+          presets: ['@babel/preset-env','@babel/preset-react']
+        }
       },
       {
         test: /\.(sa|sc|c)ss$/,
