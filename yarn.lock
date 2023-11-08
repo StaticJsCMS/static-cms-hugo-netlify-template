@@ -3363,9 +3363,9 @@
   integrity sha512-oh/6byDPnL1zeNXFrDXFLyZjkr1MsBG667IM792caf1L2UPOOMf65NFzjUH/ltyfwjAGfs1rsX1eftK0jC/KIg==
 
 "@types/http-cache-semantics@^4.0.2":
-  version "4.0.3"
-  resolved "https://registry.yarnpkg.com/@types/http-cache-semantics/-/http-cache-semantics-4.0.3.tgz#a3ff232bf7d5c55f38e4e45693eda2ebb545794d"
-  integrity sha512-V46MYLFp08Wf2mmaBhvgjStM3tPa+2GAdy/iqoX+noX1//zje2x4XmrIU0cAwyClATsTmahbtoQ2EwP7I5WSiA==
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/@types/http-cache-semantics/-/http-cache-semantics-4.0.4.tgz#b979ebad3919799c979b17c72621c0bc0a31c6c4"
+  integrity sha512-1m0bIFVc7eJWyve9S0RnuRgcQqF/Xd5QsUZAZeQFr1Q3/p9JWoQQEqmVy+DPTNpGXwhgIetAoYF8JSc33q29QA==
 
 "@types/http-proxy@^1.17.8":
   version "1.17.9"
@@ -6370,9 +6370,9 @@ file-loader@^6.2.0:
     schema-utils "^3.0.0"
 
 file-type@^18.5.0:
-  version "18.5.0"
-  resolved "https://registry.yarnpkg.com/file-type/-/file-type-18.5.0.tgz#604a001ba0d32577d4c3fa420ee104d656b914d2"
-  integrity sha512-yvpl5U868+V6PqXHMmsESpg6unQ5GfnPssl4dxdJudBrr9qy7Fddt7EVX1VLlddFfe8Gj9N7goCZH22FXuSQXQ==
+  version "18.6.0"
+  resolved "https://registry.yarnpkg.com/file-type/-/file-type-18.6.0.tgz#02f323cf0210291984280288d5eff2fcc1e98961"
+  integrity sha512-uLqXnIAIyy8K9rnvdU9IYi3WIL+6qVBWn24kThYOPlnyU+6yrr2oarn+j7seMLh1wOEG4hEjRP6a30IiKR9OaA==
   dependencies:
     readable-web-to-node-stream "^3.0.2"
     strtok3 "^7.0.0"
@@ -7109,9 +7109,9 @@ http2-wrapper@^2.1.10:
     resolve-alpn "^1.2.0"
 
 hugo-bin@^0.116.1:
-  version "0.116.1"
-  resolved "https://registry.yarnpkg.com/hugo-bin/-/hugo-bin-0.116.1.tgz#463d29318007ce249b196a2217e739da608deb1a"
-  integrity sha512-ccZmFrsRrsPhZMUWdLB6JKEjiVqXr0mDXt5RiYiJAjh1ePi4rP1U4PdjIUVsbpgY4FY4ZviSElFxqzbmkw2tpg==
+  version "0.116.4"
+  resolved "https://registry.yarnpkg.com/hugo-bin/-/hugo-bin-0.116.4.tgz#c7fdb0be338b70c122158d96a7da699c200537ef"
+  integrity sha512-MzTu7T2D88gadlADyCknACJFJXwr2KpzeJrez9RSu5rr0TMiWNJ5esaqnzoBqnptB/SU+qZNnPQ4Qe26sJf+mw==
   dependencies:
     "@xhmikosr/bin-wrapper" "^11.0.2"
     pkg-conf "^4.0.0"
@@ -7874,9 +7874,9 @@ locate-path@^6.0.0:
     p-locate "^5.0.0"
 
 locate-path@^7.1.0:
-  version "7.1.1"
-  resolved "https://registry.yarnpkg.com/locate-path/-/locate-path-7.1.1.tgz#8e1e5a75c7343770cef02ff93c4bf1f0aa666374"
-  integrity sha512-vJXaRMJgRVD3+cUZs3Mncj2mxpt5mP0EmNOsxRSZRMlbqjvxzDEOIUWXGmavo0ZC9+tNZCBLQ66reA11nbpHZg==
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/locate-path/-/locate-path-7.2.0.tgz#69cb1779bd90b35ab1e771e1f2f89a202c2a8a8a"
+  integrity sha512-gvVijfZvn7R+2qyPX8mAuKcFGDf6Nc61GdvGafQsHL0sBIxfKzA+usWn4GFC/bk+QdwPUD4kWFJLhElipq+0VA==
   dependencies:
     p-locate "^6.0.0"
 
